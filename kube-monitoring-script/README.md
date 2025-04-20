@@ -1,4 +1,4 @@
-This script captures warnings, pending pods, failed pods, failed jobs, pod metrics and node metrics. This script is for those implementation teams where they deploy your Kubernetes apps, but fail to recognize the need to have a formal monitoring tool like Prometheus to see how your app is behaving in real time.
+This script captures warnings, pending pods, failed pods, failed jobs, pod metrics and node metrics. This script is for those implementation teams where they deploy your Kubernetes apps, but fail to recognize the need to have a formal monitoring tool like Prometheus to see how your app behaves in real time with the given resource constraints.
 
 ### **1. Prequisites**
 1. Deploy Metrics API on the cluster: https://github.com/kubernetes-sigs/metrics-server
