@@ -3,9 +3,9 @@ This script captures warnings, pending pods, failed pods, failed jobs, pod metri
 ### **1. Prequisites**
 1. Deploy Metrics API on the cluster: https://github.com/kubernetes-sigs/metrics-server
 2. The script makes use of kubectl and jq. Make sure they are already installed on the machine where the script executes.
+3. Download the script on the machine. Edit the `NAMESPACE` variable within the script to change it to the namespace of your app.
 
 ### **2. How to run?**
-Download the script on the machine. Edit the `NAMESPACE` variable within the script to change it to the namespace of your app.
 
 ```bash
 # cd kube-monitoring-script/
