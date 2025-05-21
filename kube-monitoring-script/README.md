@@ -13,7 +13,7 @@ This script captures warnings, pending pods, failed pods, failed jobs, pod metri
 ```
 Then execute it as a background job
 
-nohup ./monitorKubeEvents.sh <duration in hours>  >> nohup_kube_monitor_$(date +%Y-%m-%d_%H-%M-%S).log 2>&1 &
+nohup ./monitorKubeEvents.sh {duration in hours}  >> nohup_kube_monitor_$(date +%Y-%m-%d_%H-%M-%S).log 2>&1 &
 
 For example, the command below executes the script for four hours:
 ```bash
